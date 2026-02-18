@@ -38,3 +38,29 @@ Frame Queue (bounded)
 VLM Inference Thread (Ollama)
 ->
 Risk Analysis + JSON Output
+
+---
+
+## Requirements
+
+- Python 3.9+
+- Ollama (local)
+- CPU-only system
+
+---
+
+## Model Used
+
+- **qwen3-vl:2b**
+- Loaded via Ollama local REST API
+
+---
+
+## Installation
+
+### 1. Install Ollama
+Follow instructions from the official Ollama website.
+
+### 2. Pull the model
+```bash
+ollama pull qwen3-vl:2b
