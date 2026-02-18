@@ -1,0 +1,34 @@
+{
+  "average_people": 2.33,
+  "max_people": 5,
+  "fire_events": 0,
+  "weapon_events": 0,
+  "fight_events": 1,
+  "dominant_density": "medium",
+  "frames": [
+    {
+      "timestamp_sec": 0,
+      "people_count": 2,
+      "crowd_density": "low",
+      "fire_detected": false,
+      "weapons_visible": false,
+      "fight_detected": false,
+      "panic_or_running": false,
+      "confidence": 0.91,
+      "notes": "Two customers seated calmly",
+      "risk_score": 0.0
+    },
+    {
+      "timestamp_sec": 3,
+      "people_count": 5,
+      "crowd_density": "medium",
+      "fire_detected": false,
+      "weapons_visible": false,
+      "fight_detected": true,
+      "panic_or_running": true,
+      "confidence": 0.87,
+      "notes": "Sudden aggressive interaction detected",
+      "risk_score": 1.0
+    }
+  ]
+}
