@@ -65,15 +65,4 @@ Follow instructions from the official Ollama website.
 ```bash
 ollama pull qwen3-vl:2b
 
-Output
-A structured JSON file is generated:
 
-{
-  "average_people": 2.4,
-  "max_people": 6,
-  "fire_events": 0,
-  "weapon_events": 0,
-  "fight_events": 1,
-  "dominant_density": "medium",
-  "frames": [...]
-}
