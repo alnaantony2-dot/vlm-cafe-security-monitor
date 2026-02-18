@@ -29,4 +29,16 @@ and small public spaces.
 ---
 
 ## System Architecture
-
+Video Source
+│
+▼
+OpenCV Capture Thread
+│
+▼
+Frame Queue (bounded)
+│
+▼
+VLM Inference Thread (Ollama)
+│
+▼
+Risk Analysis + JSON Output
